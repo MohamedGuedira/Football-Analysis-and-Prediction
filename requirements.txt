@@ -1,0 +1,6 @@
+Necessary libraries :
+pandas
+numpy
+matplotlib
+xgboost
+scikit-learn
