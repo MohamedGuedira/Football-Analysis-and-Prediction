@@ -76,5 +76,6 @@ After setting up the environment, you can predict the outcome of a match using t
 team1 = "Brazil"
 team2 = "Argentina"
 predict_match_outcome(team1, team2, model, le_team)
+```
 
 This will generate a bar chart showing the predicted probabilities for each possible outcome (Home Win, Draw, Away Win).
