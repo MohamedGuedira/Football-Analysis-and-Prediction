@@ -11,7 +11,20 @@ This project provides a comprehensive analysis of football (soccer) match data, 
 ## Project Structure
 The repository is structured as follows:
 
-football-analysis/ │ ├── data/ │ ├── results.csv # Contains match results with scores and tournament info │ ├── goalscorers.csv # (Optional) Dataset with goalscorers info │ └── shootouts.csv # Contains information on penalty shootouts │ ├── analysis/ │ ├── goals_analysis.py # Code for analyzing goals trends, rule changes, and goal margins │ ├── shootouts_analysis.py # Code for analyzing penalty shootouts │ └── prediction.py # Code for predicting match outcomes using XGBoost │ ├── requirements.txt # List of required Python libraries ├── README.md # Project documentation 
+football-analysis/ 
+│
+├── data/ 
+│ ├── results.csv # Contains match results with scores and tournament info 
+│ ├── goalscorers.csv # (Optional) Dataset with goalscorers info 
+│ └── shootouts.csv # Contains information on penalty shootouts 
+│ 
+├── analysis/ 
+│ ├── goals_analysis.py # Code for analyzing goals trends, rule changes, and goal margins 
+│ ├── shootouts_analysis.py # Code for analyzing penalty shootouts 
+│ └── prediction.py # Code for predicting match outcomes using XGBoost 
+│ 
+├── requirements.txt # List of required Python libraries
+├── README.md # Project documentation 
 
 
 ## Setup Instructions
