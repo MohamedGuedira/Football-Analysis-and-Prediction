@@ -12,26 +12,18 @@ All these analyses and predictions are contained within a single Jupyter noteboo
 ## Project Structure
 The repository contains the following key components:
 
-# Step 1: Create the main project directory
-mkdir Football-Analysis-and-Prediction
+Football-Analysis-and-Prediction/
+│
+├── data/
+│   ├── results.csv           # Match results with scores and tournament info
+│   ├── goalscorers.csv       # (Optional) Dataset with goalscorers info
+│   └── shootouts.csv         # Information on penalty shootouts
+│
+├── National Teams.ipynb      # Jupyter notebook containing all the analysis and prediction code
+├── requirements.txt          # List of required Python libraries
+├── README.md                 # Project documentation
+└── .gitignore                # Git ignore file to exclude unnecessary files
 
-# Step 2: Navigate into the directory
-cd Football-Analysis-and-Prediction
-
-# Step 3: Create subdirectories for data and other files
-mkdir data
-
-# Step 4: Create empty files for the project
-touch data/results.csv      # Match results with scores and tournament info
-touch data/goalscorers.csv  # (Optional) Dataset with goalscorers info
-touch data/shootouts.csv    # Information on penalty shootouts
-touch National\ Teams.ipynb # Jupyter notebook for all analysis
-touch requirements.txt      # Python package dependencies
-touch README.md             # Project documentation
-touch .gitignore            # Git ignore file
-
-# Optional: If you want to initialize a git repository
-git init
 
 
 ## Setup Instructions
